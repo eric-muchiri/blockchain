@@ -34,7 +34,7 @@ const currentBlockData = [
   {
     amount: 100,
     sender: "FGFKJGDUFEDGBXNFHD",
-    recepient: "HGDHGVFSMXVYERNXCK"
+    recepient: "HGDHGVFSMXVYERNXCG"
   }
 ];
 const nonce = 100;
