@@ -19,7 +19,7 @@ bitcoin.createNewBlock(674389, "GSHNKHHS", "JKSZMVSL");
 // console.log(bitcoin.chain[2]);
 
 //TESTING HASH BLOCK METHOD
-const previousBlockHash = "DFNKLURBNXLSJHDHD";
+/*const previousBlockHash = "DFNKLURBNXLSJHDHD";
 const currentBlockData = [
   {
     amount: 10,
@@ -37,6 +37,13 @@ const currentBlockData = [
     recepient: "HGDHGVFSMXVYERNXCG"
   }
 ];
-const nonce = 100;
+*/
+//const nonce = 100;
 
-console.log(bitcoin.hashBlock(previousBlockHash, currentBlockData, nonce));
+//console.log(bitcoin.hashBlock(previousBlockHash, currentBlockData, nonce));
+
+//console.log(bitcoin.proofOfWork(previousBlockHash, currentBlockData));
+
+//console.log(bitcoin.hashBlock(previousBlockHash, currentBlockData, 16911));
+//REST GENESIS BLOCK
+console.log(bitcoin);
